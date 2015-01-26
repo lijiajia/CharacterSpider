@@ -24,7 +24,7 @@ def process_to_database(ch, url):
     symbol = 0
     hk_spelling = ''
     cangjie_code = ''
-       
+
     path = BASE_DIR + url
     html = urllib2.urlopen(path).read()
     soup = BeautifulSoup(html)
