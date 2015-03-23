@@ -8,7 +8,6 @@ import urllib2
 import re
 from BeautifulSoup import BeautifulSoup
 
-
 BASE_DIR = 'http://tool.httpcn.com'
 
 
